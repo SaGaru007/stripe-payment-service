@@ -5,6 +5,7 @@ payment-provider concerns so the rest of the system never talks to Stripe direct
 checkout sessions, looks up their status, expires abandoned ones, verifies signed webhooks, and
 reports the outcome to a downstream processing service.
 
+![CI](https://github.com/SaGaru007/stripe-payment-service/actions/workflows/ci.yml/badge.svg)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4-brightgreen)
 ![Stripe](https://img.shields.io/badge/Stripe-Checkout-635BFF)
